@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* NAVBAR */
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    background: #000000cc;
+    position: sticky;
+    top: 0;
+}
+
+header>.container {
+    height: 40px;
+    padding: 3px 0 5px 0;
+    user-select: none;
+}
+.bars>div {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    top: -3px;
+    display: none;
+}
+.nav-list,
+.icon-bar {
+    padding-top: 10px !important;
+}
+.logo {
+    height: 100%;
+    padding-top: 7px !important;
+}
+.logo>img {
+    width: 30%;
+    margin-top: -5px;
+}
+nav .navbar {
+    margin-top: -5px;
+}
+nav .navbar li a {
+    text-decoration: none;
+    color: #c5c5c5;
+    font-size: 14px;
+}
+.navbar-nav {
+    position: relative;
+    top: -10px;
+}
+.icon-bar {
+    margin-top: -5px;
+}
+.icon-bar ul li i {
+    color: #858585;
+    font-size: 18px;
+}
+nav .navbar li a:hover,
+.icon-bar ul li i:hover {
+    color: #cacaca;
+    transition: .3s ease all;
+}
+/* ADS */
+.ads {
+    height: 45px;
+    background: #f1f1f1;
+    width: 100%;
+    padding: 5px 0 0 0;
+}
+.ads p {
+    line-height: 40px;
+    font-size: 14px;
+}
+.ads p>a {
+    color: dodgerblue;
+}
+
+.ads p>a:hover {
+    text-decoration: underline;
+}
+/* HEADER CLAS SECTION  */
+.header {
+    height: 580px;
+    background: url("../img/ipad.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+.header-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    color: #e9e9e9;
+}
+
+.text-content h1 {
+    font-size: 50px;
+    margin: 0 0 10px 0;
+}
+
+.text-content>h3 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 0 15px 0;
+}
+
+.text-content .second {
+    font-size: 16px;
+    color: #aaaaaa;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+}
+
+.text-content h4>span {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.text-content>h4>span>a {
+    text-decoration: none;
+    color: #008ac0;
+    margin-right: 10px;
+}
+
+.text-content h4>span>a:last-child {
+    margin-left: 10px;
+}
+
+.text-content h4>span>a>i {
+    position: relative;
+    top: 3px;
+    font-size: 22px;
+}
+
+.text-content h4>span>a:hover {
+    text-decoration: underline;
+}
+
+/* iPhone STYLE */
+.iphone {
+    height: 600px;
+    background-image: url('../img/iphone.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/*  MAC style */
+.mac {
+    height: 600px;
+    background-image: url('../img/IMAC.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* BOXS STYLE */
+.box .container .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 500px 500px 500px;
+    width: 100%;
+    background-color: #d6d6d6;
+    grid-gap: 5px;
+}
+
+.box .container .grid .text-content.txt-c {
+    padding: 20px;
+}
+
+.box .container .grid .text-content.txt-c>span:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .container .grid .text-content.txt-c>span>img {
+    width: 25px;
+    height: 30px;
+    position: relative;
+    top: -8px;
+    right: 10px;
+}
+
+.watch-col {
+    background: url("../img/iWatch.jfif") no-repeat center;
+    color: #fff;
+}
+
+.watch-col p {
+    font-size: 20px;
+}
+
+.watch-col span>a {
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+}
+
+.watch-col span>a>i {
+    font-size: 17px !important;
+}
+
+.watch-col span>h1 {
+    font-size: 28px;
+}
+
+.series {
+    color: crimson;
+    font-size: 17px !important;
+}
+
+/* AIRTAG STYLE */
+.airtag {
+    background: url("../img/airTag.jfif") center no-repeat;
+}
+
+.airtag>h1 {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.airtag>h4 {
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+
+.airtag>h4>span>a,
+.airtag>h4>span>a>i {
+    font-size: 16px !important;
+}
+
+/* WATCH COLOR*/
+
+.watch-color {
+    background: url("../img/colorWatches.jfif") center no-repeat;
+    background-size: cover;
+}
+
+.watch-color>h1 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.watch-color>h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    width: 85%; 
+    margin: 0 auto!important;
+    padding: 0 0 10px 0;
+}
+
+/* WONDERBOX STYLE */
+
+.wonderbox {
+    background: url("../img/AppleGame.jfif") center no-repeat;
+    background-size: cover;
+}
+
+.wonderbox>span>h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.wonderbox>h3 {
+    font-size: 22px;
+    color: #5e5e5e;
+}
+
+.wonderbox>h4>span>a {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+/* APPLE TV STYLE */
+
+.i-tv {
+    background: url("../img/AppleTV.jfif") center no-repeat;
+    background-size: cover;
+}
+
+.i-tv>span>h1 {
+    font-size: 35px;
+    padding: 30px 0;
+}
+
+.full-hd {
+    background: linear-gradient(90deg, magenta, #ff0565, yellow, dodgerblue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.i-tv>span::before {
+    content: "New";
+    color: goldenrod;
+    position: relative;
+    top: -30px;
+    left: 70px;
+    padding: 30px 0;
+}
+
+.i-tv>h3 {
+    font-size: 35px;
+}
+
+/* APPLE TV PLUS STYLE */
+
+.i-tv-plus {
+    background: url("../img/AppleTV+.jfif") center no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.i-tv-plus>h3 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.i-tv-plus>span>h1 {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.i-tv-plus>span,
+.i-tv-plus>h4,
+.i-tv-plus>h3 {
+    position: relative;
+    top: 300px;
+}
+
+/* FOOTER STYLE */
+footer {
+    padding: 30px 0;
+    background: #f5f5f7;
+    margin-top: 10px;
+}
+
+footer div>ul li a {
+    text-decoration: none;
+    color: #626266;
+    font-size: 12.5px;
+}
+
+footer div>ul li:hover a {
+    text-decoration: underline;
+}
+
+footer div>ul li {
+    padding: 5px 0;
+    list-style: none;
+}
+
+footer div>ul>li>h4 {
+    display: inline-block;
+    color: #363636;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+footer div>ul>li>label .footer-text {
+    margin: 0 0 10px 0;
+}
+
+.footer-text>p {
+    font-size: 13px;
+    color: #999999;
+}
+
+input[type="checkbox"] {
+    display: none!important;
+}
+.shop-learn,
+.shop-learn2,
+.shop-learn3,
+.shop-learn4,
+.shop-learn5,
+.shop-learn6,
+.shop-learn7,
+.shop-learn8,
+.shop-learn9{
+    font-size: 14px;
+    color: #626266;
+}
+@media (max-width:768px) {
+    .bars>label>div {
+        width: 25px;
+        height: 17px;
+        position: relative;
+        top: -6px;
+        left: 5px;
+        display: inline-block;
+    }
+    .nav-list > nav > ul > li,
+    .icon-bar > ul.list-none > li > i.bx.bx-search {
+        display: none;
+    }
+    .bars>label>div::before {
+        content: "";
+        width: 100%;
+        height: 1px;
+        background: #e6e6e6;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .bars>label>div::after {
+        content: "";
+        width: 100%;
+        height: 1px;
+        background: #e6e6e6;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .logo > img {
+        position: absolute;
+        width: 24px;
+        top: -35%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    i.bx.bx-shopping-bag{
+        position: absolute;
+        top: -36%;
+        font-size: 25px;
+        right: 20px;
+    }
+    .medium {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header {
+        background: url("../img/576px-iPad.jfif") center center no-repeat;
+        background-size: cover;
+    }
+    .header-text .text-content > h4 > span > a{
+        font-size: 16px;
+    }
+    .header-text .text-content > h1 {
+        font-size: 32px;
+    }
+    .header-text .text-content > h4 {
+        font-size: 15px;
+    }
+    .header-text .text-content > h3 {
+        font-size: 21px;
+    }
+    .box .container .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 600px);
+        width: 100%;
+        background-color: #ffffff;
+        grid-gap: 5px;
+        grid-column-gap: 20px;
+    }
+    .iphone {
+        background: url("../img/576px-iPhone.jfif") center center no-repeat;
+        padding-top: 20px;
+        background-size: cover;
+    }
+    .mac {
+        background: url("../img/576px-mac.jfif") center center no-repeat;
+        background-size: cover;
+    }
+    .wonderbox {
+        background-size: contain;
+        background-color: #fbfbfd;
+    }
+    .watch-color {
+        background-size: contain;
+        background-color: #FBFBFD;
+    }
+    .watch-color > h4 > span >a {
+        font-size: 16px;
+    }
+    #plus-nav ~ .list-item,
+    #plus-nav2 ~ .list-item,
+    #plus-nav3 ~ .list-item,
+    #plus-nav4 ~ .list-item,
+    #plus-nav5 ~ .list-item,
+    #plus-nav6 ~ .list-item,
+    #plus-nav7 ~ .list-item,
+    #plus-nav8 ~ .list-item,
+    #plus-nav9 ~ .list-item{
+        transition: .3s ease all;
+        display: none;
+    }
+    #plus-nav:checked ~ ul,
+    #plus-nav2:checked ~ ul,
+    #plus-nav3:checked ~ ul ,
+    #plus-nav4:checked ~ ul,
+    #plus-nav5:checked ~ ul,
+    #plus-nav6:checked ~ ul,
+    #plus-nav7:checked ~ ul,
+    #plus-nav8:checked ~ ul,
+    #plus-nav9:checked ~ ul{
+        display: inline-block;
+    }
+    .shop-learn,
+    .shop-learn2,
+    .shop-learn3,
+    .shop-learn4,
+    .shop-learn5,
+    .shop-learn6,
+    .shop-learn7,
+    .shop-learn8,
+    .shop-learn9{
+        cursor: pointer;
+        border-bottom: 0.5px solid #616161;
+        padding-bottom: 10px;
+        font-size: 14px;
+        color: #626266;
+    }
+    .column-3 {
+        padding-left: 0!important;
+    }
+}
+@media (max-width:576px) {
+    .bars>label>div {
+        width: 25px;
+        height: 17px;
+        position: relative;
+        top: -6px;
+        left: 5px;
+        display: inline-block;
+    }
+    .nav-list > nav > ul > li,
+    .icon-bar > ul.list-none > li > i.bx.bx-search {
+        display: none;
+    }
+    .bars>label>div::before {
+        content: "";
+        width: 100%;
+        height: 1px;
+        background: #e6e6e6;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .bars>label>div::after {
+        content: "";
+        width: 100%;
+        height: 1px;
+        background: #e6e6e6;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .logo > img {
+        position: absolute;
+        width: 24px;
+        top: -35%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    i.bx.bx-shopping-bag{
+        position: absolute;
+        top: -36%;
+        font-size: 25px;
+        right: 20px;
+    }
+    .medium {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header {
+        background: url("../img/576px-iPad.jfif") center center no-repeat;
+        background-size: cover;
+    }
+    .header-text .text-content > h4 > span > a{
+        font-size: 16px;
+    }
+    .header-text .text-content > h1 {
+        font-size: 32px;
+    }
+    .header-text .text-content > h4 {
+        font-size: 15px;
+    }
+    .header-text .text-content > h3 {
+        font-size: 21px;
+    }
+    .box .container .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 600px);
+        width: 100%;
+        background-color: #ffffff;
+        grid-gap: 5px;
+        grid-column-gap: 20px;
+    }
+    .iphone {
+        background: url("../img/576px-iPhone.jfif") center center no-repeat;
+        padding-top: 20px;
+        background-size: cover;
+    }
+    .mac {
+        background: url("../img/576px-mac.jfif") center center no-repeat;
+        background-size: cover;
+    }
+    .wonderbox {
+        background-size: contain;
+        background-color: #fbfbfd;
+    }
+    .watch-color {
+        background-size: contain;
+        background-color: #FBFBFD;
+    }
+    .watch-color > h4 > span >a {
+        font-size: 16px;
+    }
+    #plus-nav ~ .list-item,
+    #plus-nav2 ~ .list-item,
+    #plus-nav3 ~ .list-item,
+    #plus-nav4 ~ .list-item,
+    #plus-nav5 ~ .list-item,
+    #plus-nav6 ~ .list-item,
+    #plus-nav7 ~ .list-item,
+    #plus-nav8 ~ .list-item,
+    #plus-nav9 ~ .list-item{
+        transition: .3s ease all;
+        display: none;
+    }
+    #plus-nav:checked ~ ul,
+    #plus-nav2:checked ~ ul,
+    #plus-nav3:checked ~ ul ,
+    #plus-nav4:checked ~ ul,
+    #plus-nav5:checked ~ ul,
+    #plus-nav6:checked ~ ul,
+    #plus-nav7:checked ~ ul,
+    #plus-nav8:checked ~ ul,
+    #plus-nav9:checked ~ ul{
+        display: inline-block;
+    }
+    .shop-learn,
+    .shop-learn2,
+    .shop-learn3,
+    .shop-learn4,
+    .shop-learn5,
+    .shop-learn6,
+    .shop-learn7,
+    .shop-learn8,
+    .shop-learn9{
+        cursor: pointer;
+        border-bottom: 0.5px solid #616161;
+        padding-bottom: 10px;
+        font-size: 14px;
+        color: #626266;
+    }
+    .column-3 {
+        padding-left: 0!important;
+    }
+}
